@@ -2,8 +2,8 @@ name = input("Please enter your name: ")
 #
 print(f"Hello, {name}")
 #
-number_1 = int(input("Please enter number 1: "))
-number_2 = int(input("Please enter number 2: "))
+number_1 = int(input("Please enter a number 1: "))
+number_2 = int(input("Please enter a number 2: "))
 
 print(type(number_2))
 print(type(number_1))
