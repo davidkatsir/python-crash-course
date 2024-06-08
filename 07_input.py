@@ -1,6 +1,6 @@
-# name = input("Please enter your name: ")
+name = input("Please enter your name: ")
 #
-# print(f"Hello, {name}")
+print(f"Hello, {name}")
 #
 number_1 = int(input("Please enter number 1: "))
 number_2 = int(input("Please enter number 2: "))
