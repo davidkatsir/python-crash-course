@@ -48,13 +48,25 @@
 # else:
 #     print("No valid number was entered...")
 
-input_username = input("Enter your username: ")
-input_password = input("Enter your password: ")
+# input_username = input("Enter your username: ")
+# input_password = input("Enter your password: ")
+#
+# correct_username = "Alex"
+# correct_password = "qwerty123456"
+#
+# if input_username == correct_username and input_password == correct_password:
+#     print(f"Welcome '{correct_username}' to the system!")
+# else:
+#     print("At least one of the credentials was wrong. Please try again.")
 
-correct_username = "Alex"
-correct_password = "qwerty123456"
 
-if input_username == correct_username and input_password == correct_password:
-    print(f"Welcome '{correct_username}' to the system!")
+input_username = input("Please enter Username: ")
+input_password = input("Please enter Password: ")
+
+correct_username = "David"
+correct_password = "david123456"
+
+if (input_username == correct_username and input_password == correct_password):
+    print(f"Welcome back '{input_username}', what would you like to do?")
 else:
-    print("At least one of the credentials was wrong. Please try again.")
+    print("At least one of entered credentials was wrong. please try again.")
